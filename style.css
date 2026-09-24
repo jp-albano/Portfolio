@@ -42,11 +42,14 @@ header {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+}
 footer {
     background-color: black;
     margin: -1%;
-    padding: 1%;
-    padding-bottom: 0%;
 }
 .box {
     display: flex;
@@ -123,14 +126,12 @@ svg {
     border-radius: 25%;
     
 }
-.ftexto {
-    font-size: 20px;
-}
 .aula {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 50px;
+    padding-bottom: 1%;
     
 }
 .aulas {
@@ -147,4 +148,7 @@ svg {
 }
 .fotominha {
     width: 25%;
+    height: 25%;
+    border-radius: 100%;
+    border: solid orange;
 }
