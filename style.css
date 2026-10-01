@@ -152,3 +152,21 @@ svg {
     border-radius: 100%;
     border: solid orange;
 }
+.modal {
+  border: none;
+  background: transparent;
+  padding: 0;
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+.modal::backdrop {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.foto-expandida {
+  max-width: 90vw;
+  max-height: 85vh;
+  display: block;
+  border-radius: 8px;
+}
