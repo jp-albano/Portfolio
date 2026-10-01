@@ -96,7 +96,7 @@ p {
     gap: 16px;
 }
 .conteudo {
-    padding-left: 15%;
+    margin-left: 15%;
 }
 .conteudo p {
     font-size: 20px;
@@ -159,11 +159,9 @@ svg {
   max-width: 90vw;
   max-height: 90vh;
 }
-
 .modal::backdrop {
   background: rgba(0, 0, 0, 0.85);
 }
-
 .foto-expandida {
   max-width: 90vw;
   max-height: 85vh;
