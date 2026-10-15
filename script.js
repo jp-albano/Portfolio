@@ -10,4 +10,3 @@ document.addEventListener('click', (event) => {
 });
 
 modal.addEventListener('click', () => modal.close());
-

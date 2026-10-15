@@ -42,14 +42,10 @@ header {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-.rodape {
-    display: flex;
-    justify-content: space-between;
-    gap: 300px;
-}
 footer {
     background-color: black;
     margin: -1%;
+    padding: 1%;
 }
 .box {
     display: flex;
@@ -68,11 +64,10 @@ footer {
     display: flex;
     align-items: center;
 }
-footer {
+.footerTxt {
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
     align-items: flex-start;
-    padding: 0% 5%;
     color: white;
 }
 p {
@@ -96,7 +91,7 @@ p {
     gap: 16px;
 }
 .conteudo {
-    margin-left: 15%;
+    margin-left: 20%;
 }
 .conteudo p {
     font-size: 20px;
